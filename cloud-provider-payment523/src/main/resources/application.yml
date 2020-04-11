@@ -1,0 +1,9 @@
+server:
+  port: 523
+
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      connect-string: 10.43.1.52:2181

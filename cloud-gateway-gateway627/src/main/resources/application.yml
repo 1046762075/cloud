@@ -1,0 +1,50 @@
+server:
+  port: 627
+
+spring:
+  application:
+#   自己在 Eureka 中的服务名称
+    name: cloud-gateway-servive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true   #开启从注册中心动态创建路由的功能 利用微服务名称进行路由
+      routes:
+      -  id: payment_routh_get   #路由的ID 没有固定但要求唯一
+#         uri: http://localhost:521  #匹配后提供服务的路由地址
+         uri: lb://CLOUD-PAYMENT-SERVICE #匹配提供服务的路由地址
+         predicates:
+           - Path=/payment/get/** #断言 路径相匹配的进行路由
+
+      -  id: payment_routh_lb
+#         uri: http://localhost:521
+         uri: lb://CLOUD-PAYMENT-SERVICE
+         predicates:
+           - Path=/payment/lb/**
+#           意思就是 这个时间之后我们的 lb 请求访问才有效果
+           - After=2020-04-11T20:06:44.175+08:00[Asia/Shanghai]
+           - Cookie=username,nay
+#          访问方式: CMD里面 -> curl http://127.0.0.1:627/payment/lb --cookie "username=nay"
+           - Header=ps_nay, \d+ #请求头要有 ps_nay 属性并且为整数的正则表达式
+#          访问方式: CMD里面 -> curl http://127.0.0.1:627/payment/lb --cookie "username=nay" -H "ps_nay:123"
+           - Host=**.nay.com  #必须包含 **.nay.com 的主机名才能访问
+#          访问方式: CMD里面 -> curl http://127.0.0.1:627/payment/lb --cookie "username=nay" -H "ps_nay:123" -H "Host: lsl.nay.com"
+           - Query=age, \d+   # 必须要有参数名 age 并且值要是整数
+#          访问方式: CMD里面 -> curl http://127.0.0.1:627/payment/lb?age=20 --cookie "username=nay" -H "ps_nay:123" -H "Host: lsl.nay.com"
+#           - RemoteAddr=192.168.1.1/24
+
+eureka:
+  client:
+#   表示自己要注册EurekaServer
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: gateway627
+    prefer-ip-address: true
+#   Eureka 客户端向服务端发送心跳的时间间隔 单位秒
+    lease-renewal-interval-in-seconds: 1
+#   Eureka 客户端在收到最后一次心跳后等待时间上限 超时将剔除 单位秒
+    lease-expiration-duration-in-seconds: 2

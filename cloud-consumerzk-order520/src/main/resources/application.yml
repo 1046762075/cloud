@@ -1,0 +1,9 @@
+server:
+  port: 520
+
+spring:
+  application:
+    name: cloud-consumerzk-order
+  cloud:
+    zookeeper:
+      connect-string: 10.43.1.52:2181

@@ -1,0 +1,25 @@
+server:
+  port: 621
+
+# 定义 Feign 的延迟时间 单位：秒
+time: 1
+
+spring:
+  application:
+#   自己在 Eureka 中的服务名称
+    name: cloud-hystrix-dashboard
+
+eureka:
+  client:
+#   表示自己要注册EurekaServer
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: dashboard621
+    prefer-ip-address: true
+#   Eureka 客户端向服务端发送心跳的时间间隔 单位秒
+    lease-renewal-interval-in-seconds: 1
+#   Eureka 客户端在收到最后一次心跳后等待时间上限 超时将剔除 单位秒
+    lease-expiration-duration-in-seconds: 2
