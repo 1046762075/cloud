@@ -8,9 +8,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/1046762075/cloud
+          uri: git@github.com:1046762075/cloud.git
+#          uri: https://github.com/1046762075/cloud
           search-paths:
-            - springcloud
+            - cloud
+      # 读取 master 分支
+      label: master
+
 eureka:
   client:
     #   表示自己要注册EurekaServer
