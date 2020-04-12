@@ -1,0 +1,44 @@
+server:
+  port: 802
+
+spring:
+  application:
+    name: cloud-stream-rabbitmq-consumer
+  cloud:
+    stream:
+      binders:                                    #此处配置要绑定的 rabbitmq 的服务信息
+        defaultRabbit:                            #表示定义的名称 用于与 binding 整合
+          type: rabbit                            #消息组件类型
+          environment:                            #设置 rabbitmq 的相关的环境配置
+            spring:
+              rabbitmq:
+                host: 10.43.1.52
+                port: 5672
+                username: guest
+                password: guest
+      bindings:                                  #服务的整合处理
+        input:                                   #消息的消费通道的定义
+          destination: nayExchange               #表示要使用的 Exchange 消息通道
+          content-type: application/json         #设置消息类型 本次为 json  文本设置为："text/plain"
+          binder: defaultRabbit                  #设置要绑定消息服务的具体设置
+          group: T1                              #进行分组 同时还具有持久化功能
+eureka:
+  client:
+    #   表示自己要注册EurekaServer
+    register-with-eureka: true
+#   从 Eureka 抓取已有的信息
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+  instance:
+    instance-id: stream-rabbitmq-consumer802
+    prefer-ip-address: true
+    #   Eureka 客户端向服务端发送心跳的时间间隔 单位秒
+    lease-renewal-interval-in-seconds: 1
+    #   Eureka 客户端在收到最后一次心跳后等待时间上限 超时将剔除 单位秒
+    lease-expiration-duration-in-seconds: 2
+ribbon:
+# 指的是建立连接后从服务器读取到可用资源所用的时间
+  ReadTimeout: 2000
+# 指建立链接所用的时间 适用于网络状况正常情况下 两端所用时间
+  ConnectTimeout: 2000

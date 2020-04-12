@@ -1,0 +1,3 @@
+运行：java -jar zipkin-server-2.12.9-exec.jar
+Web页面：127.0.0.1:9411
+设置好被追踪的服务就可以查找了
