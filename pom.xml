@@ -71,7 +71,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
             <!--MySQL-->
             <dependency>
                 <groupId>mysql</groupId>
