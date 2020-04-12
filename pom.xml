@@ -23,6 +23,8 @@
         <module>cloud-consumer-feign-hystrix-order520</module>
         <module>cloud-consumer-hystrix-dashboard621</module>
         <module>cloud-gateway-gateway627</module>
+        <module>cloud-config-conter-3344</module>
+        <module>cloud-config-center3344</module>
     </modules>
     <packaging>pom</packaging>
 
