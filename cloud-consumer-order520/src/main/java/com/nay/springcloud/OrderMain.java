@@ -11,6 +11,8 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
  * 			http://127.0.0.1:520/consumer/payment/getForEntity/1
  * 			http://127.0.0.1:520/consumer/payment/get/1
  自定义轮询 http://127.0.0.1:520/consumer/payment/lb/1
+ *			Zipkin测试:
+ * 			http://127.0.0.1:520/consumer/payment/zipkin
  * 时间：2020/4/8 16:34
  */
 // 开启自定义 Ribbon 并指定配置文件的位置

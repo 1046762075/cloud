@@ -8,6 +8,14 @@ spring:
   application:
 #   自己在 Eureka 中的服务名称
     name: cloud-payment-service
+#   设置 Zipkin 监控
+  zipkin:
+    base-url: http://localhost:9411
+  sleuth:
+    sampler:
+#     采样率值介于 0 到 1 之间, 1则表示全部采样
+      probability: 1
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver

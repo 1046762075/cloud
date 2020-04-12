@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -92,5 +94,12 @@ public class PaymentController {
 			e.printStackTrace();
 		}
 		return "<center><font color='orange'>Feign延迟测试</font></center><br>端口为：" + serverPort;
+	}
+
+	@GetMapping(value = "/zipkin")
+	public String paymentZipkin(){
+		String result = "hi ,i'am paymentZipkin server fall back, welcome to nay, ^_^ \t\t 当前时间：<font color='orange'>" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy年MM月dd日 HH:mm:ss"))+ "<font>";
+		log.info("链路跟踪-> " + result);
+		return result;
 	}
 }

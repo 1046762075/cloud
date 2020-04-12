@@ -14,6 +14,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  *		http://127.0.0.1:521/payment/create?serial=lsl
  *		Feign延迟 在yml文件中配置
  * 		http://127.0.0.1:521/payment/feign/timeout
+ *
+ * 		Zipkin链路测试
+ * 		http://127.0.0.1:521/payment/zipkin
  * 时间：2020/4/8 13:35
  */
 @EnableEurekaClient

@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: cloud-consumer-order
+  zipkin:
+    base-url: http://localhost:9411
+    sleuth:
+      sampler:
+        #     采样率值介于 0 到 1 之间, 1则表示全部采样
+        probability: 1
 eureka:
   client:
     #   表示自己要注册EurekaServer

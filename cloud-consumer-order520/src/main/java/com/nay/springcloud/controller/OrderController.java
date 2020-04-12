@@ -84,4 +84,14 @@ public class OrderController {
 		System.out.println(http);
 		return restTemplate.getForObject(http,String.class);
 	}
+
+	/**
+	 * Zipkin + sleuth
+	 */
+	@GetMapping("/zipkin")
+	public String consumerZipkin(){
+		String result = restTemplate.getForObject("http://localhost:521" + "/payment/zipkin" ,String.class);
+		log.info("链路跟踪-> " + result);
+		return result;
+	}
 }

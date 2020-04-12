@@ -12,6 +12,11 @@
     <artifactId>cloud-consumer-order520</artifactId>
 
     <dependencies>
+        <!--    包含了 sleuth + zipkin    -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
