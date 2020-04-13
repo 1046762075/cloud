@@ -1,0 +1,49 @@
+1.nginx
+2.mysql5.7
+3.修改conf目录下的application.properties
+{
+	spring.datasource.platform=mysql
+	db.num=1
+	db.url.0=jdbc:mysql://127.0.0.1:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+	db.user=root
+	db.password=mq0000	
+}
+4.将conf下面的nacos-mysql.sql导入名为 [nacos_config] 的数据库
+5.将conf下的cluster.conf.example复制一份到conf下增加
+{
+	10.43.1.52:8848
+	10.43.1.52:8849
+	10.43.1.52:8850
+}
+6.修改bin下面的 startup.sh			[具体看图]
+{
+	while循环入参加上 p:		 p)			PORT=$OPTARG;;
+	-Dserver.port=${PORT}
+}
+7.配置Nginx负载均衡				[具体看图]
+{
+	    #   Nacos集群搭建 配置Nginx负载均衡     
+	    upstream cluster{
+        	server 10.43.1.52:8848;
+        	server 10.43.1.52:8849;
+       		server 10.43.1.52:8850;
+  	    }
+
+
+	    server {
+      		  listen           1111;
+      		  server_name      10.43.1.52;
+
+     		  location / {
+             		   proxy_pass http://cluster;
+       	  	  }
+  	    }	
+}
+
+8.启动三台Nacos： shutdown.sh -p 8848、shutdown.sh -p 8849、shutdown.sh -p 8850
+
+9.docker启动Nginx：docker run --name mynginx -p 80:80 -p 1111:1111 -p 8848:8848 -p 8849:8850 -p 8849:8850 -v /mydocker/mynginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /mydocker/mynginx/some:/usr/share/nginx/html -d nginx
+
+10.docker启动mysql：docker run -d -p 3306:3306 --name mysql5.7 -v /mydocker/mysql/conf:/etc/mysql/conf.d -v /mydocker/mysql/logs:/logs -v /mydocker/mysql/data:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=mq0000  mysql:5.7.29
+
+大功告成.......浏览器输入：http://10.43.1.52:1111/nacos
