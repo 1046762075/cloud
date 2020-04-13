@@ -1,0 +1,15 @@
+server:
+  port: 999
+
+spring:
+  application:
+    name: nacos-cluster-provider-payment
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.43.1.52:1111   #配置 Nacos 集群地址(即Nginx暴露出来的端口)
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: '*'
