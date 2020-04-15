@@ -1,0 +1,21 @@
+----------------------------------------------------SQL在压缩包----------------------------------------------------
+----------------------------------------坐在第二排看戏,所以我们选择1.0版本-----------------------------------------
+
+1.在conf目录下修改file.conf			[详细看图1、2、3]
+{
+	service模块	修改		vgroup_mapping.my_test_tx_group = "nay_tx_group"
+	store模块 	修改		mode = "db"
+	db模块		修改		{
+						url = "jdbc:mysql://127.0.0.1:3306/seata"
+    						user = "root"
+    						password = "mq0000"
+					}
+}
+2.在conf目录下修改registry.conf			[详细看图4]
+{
+	
+	registry模块	修改		type = "nacos"
+					nacos子模块 	修改		serverAddr = "localhost:8848"
+}
+3.然创建一个seata数据库导入db_store.sq
+4.去bin目录运行

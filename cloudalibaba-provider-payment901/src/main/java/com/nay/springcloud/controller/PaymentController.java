@@ -21,6 +21,6 @@ public class PaymentController {
 	@GetMapping("/payment/nacos/{id}")
 	public String getPayment(@PathVariable("id") Integer id){
 		log.info("访问 Nacos 成功,访问ID: " + id);
-		return "nacos registry, serverPort：" + serverPort + "\t id: " + id;
+		return "访问 Nacos 成功 nacos registry, serverPort：" + serverPort + "\t id: " + id;
 	}
 }

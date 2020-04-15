@@ -12,14 +12,19 @@
     <artifactId>cloudalibaba-sentinel-service401</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
         <!-- sentinel-datasource-nacos  用来做持久化 -->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.nay.springcloud</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>520</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         <!-- alibaba-sentinel-->
         <dependency>
