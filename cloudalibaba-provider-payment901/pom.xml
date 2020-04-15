@@ -11,7 +11,6 @@
 
     <artifactId>cloudalibaba-provider-payment901</artifactId>
 
-
     <dependencies>
 <!--        引入Nacos -->
         <dependency>
