@@ -12,7 +12,7 @@
     <artifactId>cloudalibaba-sentinel-service401</artifactId>
 
     <dependencies>
-        <!-- sentinel-datasource-nacos  用来做持久化 -->
+        <!-- sentinel-datasource-nacos 用来做持久化 -->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-datasource-nacos</artifactId>
