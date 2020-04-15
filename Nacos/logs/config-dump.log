@@ -1,0 +1,6 @@
+2020-04-15 10:29:48,799 INFO [dump-all-ok] cloudAlibaba-sentinel-service+DEFAULT_GROUP, 1586880876000, length=208, md5=1d8595244c881c38858acde8a2fd4f57
+
+2020-04-15 10:55:37,851 WARN [dump-ignore] ignore to save cache file. groupKey=cloudalibaba-sentinel-service+DEFAULT_GROUP, md5=1d8595244c881c38858acde8a2fd4f57, lastModifiedOld=1586918974275, lastModifiedNew=1586919337554
+
+2020-04-15 11:05:35,919 WARN [dump-ignore] ignore to save cache file. groupKey=cloudalibaba-sentinel-service+DEFAULT_GROUP, md5=1d8595244c881c38858acde8a2fd4f57, lastModifiedOld=1586918974275, lastModifiedNew=1586919935558
+

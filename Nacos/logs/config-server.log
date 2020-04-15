@@ -1,138 +1,40 @@
-2020-04-13 11:50:33,194 INFO notifyConnectTimeout:200
+2020-04-15 10:29:47,214 INFO notifyConnectTimeout:200
 
-2020-04-13 11:50:33,196 INFO notifySocketTimeout:8000
+2020-04-15 10:29:47,223 INFO notifySocketTimeout:8000
 
-2020-04-13 11:50:33,196 INFO isHealthCheck:true
+2020-04-15 10:29:47,223 INFO isHealthCheck:true
 
-2020-04-13 11:50:33,196 INFO maxHealthCheckFailCount:12
+2020-04-15 10:29:47,223 INFO maxHealthCheckFailCount:12
 
-2020-04-13 11:50:33,196 INFO maxContent:10485760
+2020-04-15 10:29:47,223 INFO maxContent:10485760
 
-2020-04-13 11:50:35,462 INFO ServerListService address-server port:8080
+2020-04-15 10:29:47,224 INFO spring.datasource.platform:mysql
 
-2020-04-13 11:50:35,462 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+2020-04-15 10:29:48,695 INFO ServerListService address-server port:8080
 
-2020-04-13 11:50:35,463 WARN [serverlist] updated to [10.43.1.1:8848]
+2020-04-15 10:29:48,695 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
 
-2020-04-13 11:50:35,517 WARN DumpService start
+2020-04-15 10:29:48,696 WARN [serverlist] updated to [10.43.1.1:8848]
 
-2020-04-13 11:50:35,520 INFO start clear all config-info.
+2020-04-15 10:29:48,746 WARN DumpService start
 
-2020-04-13 11:50:35,524 WARN clear all config-info failed.
+2020-04-15 10:29:48,749 INFO start clear all config-info.
 
-2020-04-13 11:50:35,524 WARN clear all config-info-tenant failed.
+2020-04-15 10:29:48,755 INFO clear all config-info success.
 
-2020-04-13 11:50:35,581 INFO start clear all config-info-beta.
+2020-04-15 10:29:48,755 WARN clear all config-info-tenant failed.
 
-2020-04-13 11:50:35,581 WARN clear all config-info-beta failed.
+2020-04-15 10:29:48,803 INFO [all-dump] 2 / 2
 
-2020-04-13 11:50:35,581 WARN clear all config-info-beta-tenant failed.
+2020-04-15 10:29:48,803 INFO start clear all config-info-beta.
 
-2020-04-13 11:50:35,590 INFO start clear all config-info-tag.
+2020-04-15 10:29:48,803 WARN clear all config-info-beta failed.
 
-2020-04-13 11:50:35,590 WARN clear all config-info-tag failed.
+2020-04-15 10:29:48,803 WARN clear all config-info-beta-tenant failed.
 
-2020-04-13 11:50:35,590 WARN clear all config-info-tag-tenant failed.
+2020-04-15 10:29:48,805 INFO start clear all config-info-tag.
 
-2020-04-13 18:14:30,883 INFO notifyConnectTimeout:200
+2020-04-15 10:29:48,805 WARN clear all config-info-tag failed.
 
-2020-04-13 18:14:30,884 INFO notifySocketTimeout:8000
-
-2020-04-13 18:14:30,884 INFO isHealthCheck:true
-
-2020-04-13 18:14:30,884 INFO maxHealthCheckFailCount:12
-
-2020-04-13 18:14:30,885 INFO maxContent:10485760
-
-2020-04-13 18:14:30,885 INFO spring.datasource.platform:mysql
-
-2020-04-13 18:14:32,286 INFO ServerListService address-server port:8080
-
-2020-04-13 18:14:32,286 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
-
-2020-04-13 18:14:32,287 WARN [serverlist] updated to [10.43.1.1:8848]
-
-2020-04-13 18:14:32,337 WARN DumpService start
-
-2020-04-13 18:14:32,339 INFO start clear all config-info.
-
-2020-04-13 18:14:32,343 WARN clear all config-info failed.
-
-2020-04-13 18:14:32,343 WARN clear all config-info-tenant failed.
-
-2020-04-13 18:14:32,448 INFO start clear all config-info-beta.
-
-2020-04-13 18:14:32,448 WARN clear all config-info-beta failed.
-
-2020-04-13 18:14:32,448 WARN clear all config-info-beta-tenant failed.
-
-2020-04-13 18:14:32,452 INFO start clear all config-info-tag.
-
-2020-04-13 18:14:32,452 WARN clear all config-info-tag failed.
-
-2020-04-13 18:14:32,452 WARN clear all config-info-tag-tenant failed.
-
-2020-04-13 18:28:34,668 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:13
-
-2020-04-13 18:28:39,670 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:14
-
-2020-04-13 18:28:44,670 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:15
-
-2020-04-13 18:28:49,673 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:16
-
-2020-04-13 18:28:54,671 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:17
-
-2020-04-13 18:28:59,674 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:18
-
-2020-04-13 18:29:04,674 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:19
-
-2020-04-13 18:29:09,675 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:20
-
-2020-04-13 18:29:14,676 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:21
-
-2020-04-13 18:29:19,677 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:22
-
-2020-04-13 18:29:24,679 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:23
-
-2020-04-13 18:29:29,681 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:24
-
-2020-04-13 18:29:34,682 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:25
-
-2020-04-13 18:29:39,682 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:26
-
-2020-04-13 18:29:44,684 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:27
-
-2020-04-13 18:29:49,684 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:28
-
-2020-04-13 18:29:54,685 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:29
-
-2020-04-13 18:29:59,686 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:30
-
-2020-04-13 18:30:04,688 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:31
-
-2020-04-13 18:30:09,688 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:32
-
-2020-04-13 18:30:14,689 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:33
-
-2020-04-13 18:30:19,690 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:34
-
-2020-04-13 18:30:24,691 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:35
-
-2020-04-13 18:30:29,693 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:36
-
-2020-04-13 18:30:34,693 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:37
-
-2020-04-13 18:30:39,696 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:38
-
-2020-04-13 18:30:44,696 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:39
-
-2020-04-13 18:30:49,697 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:40
-
-2020-04-13 18:30:54,697 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:41
-
-2020-04-13 18:30:59,699 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:42
-
-2020-04-13 18:31:04,700 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:43
-
-2020-04-13 18:31:09,702 ERROR unhealthIp:10.43.1.1:8848, unhealthCount:44
+2020-04-15 10:29:48,805 WARN clear all config-info-tag-tenant failed.
 

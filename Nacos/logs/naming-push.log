@@ -1,132 +1,178 @@
-2020-04-13 13:28:11,877 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:00:20,219 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:36:13,549 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:02:37,273 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:36:20,101 INFO DEFAULT_GROUP@@alibaba-provider-payment901 is changed, add it to push queue.
+2020-04-15 00:02:44,016 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:37:08,238 INFO DEFAULT_GROUP@@alibaba-provider-payment901 is changed, add it to push queue.
+2020-04-15 00:03:39,140 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:37:14,587 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:03:45,847 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:39:56,654 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:04:01,898 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:42:30,847 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:04:08,711 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:43:06,979 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:05:16,737 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:43:22,072 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:17:15,249 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:43:37,434 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:19:52,899 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:43:56,168 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:20:04,694 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:44:02,070 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 00:20:09,679 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 13:44:17,072 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:31:02,512 INFO DEFAULT_GROUP@@nacos-payment-provider is changed, add it to push queue.
 
-2020-04-13 13:44:32,079 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:31:03,886 INFO DEFAULT_GROUP@@nacos-payment-provider is changed, add it to push queue.
 
-2020-04-13 13:46:37,882 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:31:10,757 INFO DEFAULT_GROUP@@nacos-order-comsumer is changed, add it to push queue.
 
-2020-04-13 14:50:20,034 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:31:18,632 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:50:26,585 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:39:38,694 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:51:09,620 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:39:53,873 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:51:17,060 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:41:23,138 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:51:59,416 INFO DEFAULT_GROUP@@alibaba-consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:45:18,907 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:53:27,923 INFO DEFAULT_GROUP@@alibaba-consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:45:33,911 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:53:54,291 INFO DEFAULT_GROUP@@alibaba-consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:46:07,601 INFO DEFAULT_GROUP@@nacos-payment-provider is changed, add it to push queue.
 
-2020-04-13 14:54:00,629 INFO DEFAULT_GROUP@@alibaba-consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:46:10,878 INFO DEFAULT_GROUP@@nacos-order-comsumer is changed, add it to push queue.
 
-2020-04-13 14:56:12,345 INFO DEFAULT_GROUP@@alibaba-consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:46:19,154 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:56:12,503 INFO DEFAULT_GROUP@@alibaba-provider-payment is changed, add it to push queue.
+2020-04-15 10:46:22,607 INFO DEFAULT_GROUP@@nacos-payment-provider is changed, add it to push queue.
 
-2020-04-13 14:56:19,255 INFO DEFAULT_GROUP@@consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:46:25,882 INFO DEFAULT_GROUP@@nacos-order-comsumer is changed, add it to push queue.
 
-2020-04-13 14:56:19,515 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 10:50:51,071 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:56:41,241 INFO DEFAULT_GROUP@@consumer-nacos-order is changed, add it to push queue.
+2020-04-15 10:51:48,953 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:56:47,626 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 10:51:53,467 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:57:58,194 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 10:51:58,465 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:58:09,196 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 10:58:54,003 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:58:40,164 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 10:59:09,010 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 14:58:46,578 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 10:59:13,571 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:00:48,915 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 11:02:04,024 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:00:49,562 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 11:02:19,031 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:01:04,569 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 11:02:35,681 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:01:08,841 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 11:03:49,036 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:01:15,199 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 11:03:51,642 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:41:10,909 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 11:03:56,640 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:43:18,103 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 13:51:41,907 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 15:43:24,697 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 14:08:05,498 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:45:31,919 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 14:08:20,505 INFO DEFAULT_GROUP@@cloudalibaba-sentinel-service is changed, add it to push queue.
 
-2020-04-13 15:45:38,455 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 16:37:08,097 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 15:45:40,495 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 16:37:23,103 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 15:45:46,929 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 16:37:31,218 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:03:08,145 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 16:45:00,516 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:05:02,275 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 17:36:46,558 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:05:08,794 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 17:37:41,320 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:10:05,370 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:27:24,197 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:11:45,557 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:30:28,820 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:12:52,584 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:30:43,826 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 16:12:59,399 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:42:20,082 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:32:02,707 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:45:10,109 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:32:09,277 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:45:25,114 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:34:01,901 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:46:53,534 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
 
-2020-04-13 17:34:16,905 INFO DEFAULT_GROUP@@nacos-config-client is changed, add it to push queue.
+2020-04-15 18:47:00,842 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:34:51,646 INFO DEFAULT_GROUP@@nacos-config-client-dev is changed, add it to push queue.
+2020-04-15 18:50:40,154 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:35:44,680 INFO DEFAULT_GROUP@@nacos-config-client-dev is changed, add it to push queue.
+2020-04-15 18:50:55,159 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 17:35:51,321 INFO DEFAULT_GROUP@@nacos-config-client-dev is changed, add it to push queue.
+2020-04-15 18:54:21,487 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 18:14:34,710 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 18:56:37,614 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 18:14:34,713 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 18:58:50,229 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 18:14:34,714 INFO DEFAULT_GROUP@@nacos-config-client-dev is changed, add it to push queue.
+2020-04-15 18:59:05,234 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
 
-2020-04-13 18:25:59,791 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 19:13:52,133 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
 
-2020-04-13 18:25:59,791 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 19:15:42,144 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
 
-2020-04-13 18:26:14,880 INFO DEFAULT_GROUP@@nacos-provider-payment is changed, add it to push queue.
+2020-04-15 19:15:57,148 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
 
-2020-04-13 18:26:14,880 INFO DEFAULT_GROUP@@nacos-consumer-order is changed, add it to push queue.
+2020-04-15 19:24:37,397 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 19:26:07,406 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 19:26:22,412 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 19:28:08,172 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 19:31:01,059 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 19:32:35,468 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 19:32:50,474 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 19:55:42,990 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 19:58:16,159 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
+
+2020-04-15 20:00:05,181 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:00:07,067 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
+
+2020-04-15 20:00:12,752 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 20:00:27,758 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 20:00:51,459 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 20:03:20,788 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:03:26,117 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:19:00,902 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:20:56,404 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:25:05,980 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:25:20,986 INFO DEFAULT_GROUP@@seata-order-service is changed, add it to push queue.
+
+2020-04-15 20:32:43,066 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 20:32:47,819 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
+
+2020-04-15 20:32:58,070 INFO DEFAULT_GROUP@@seata-account-service is changed, add it to push queue.
+
+2020-04-15 20:33:02,824 INFO DEFAULT_GROUP@@seata-storage-service is changed, add it to push queue.
 
