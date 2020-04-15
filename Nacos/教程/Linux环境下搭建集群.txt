@@ -29,7 +29,6 @@
        		server 10.43.1.52:8850;
   	    }
 
-
 	    server {
       		  listen           1111;
       		  server_name      10.43.1.52;
